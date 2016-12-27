@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myApp" ng-controller="myCtrl">
+<head>
+<meta charset="ISO-8859-1">
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+<link rel="stylesheet" href="app.css">
+<title>Insert title here</title>
+</head>
+<body>
+<div id="div1">
+<input placeholder="Enter your name" type="text" ng-model="name"> 
+<input type="button" onclick="submit()" value="Submit"><br>
+ <p> <span>{{msg}}</span></p>
+</div>
+</body>
+</html>
